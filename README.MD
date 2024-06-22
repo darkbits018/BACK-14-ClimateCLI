@@ -4,9 +4,14 @@
 **Instructions**
 - clone the repository
 - open current directory in terminal
-- Install Requirments (pip install click)
+- Install Requirments 
+- Go to [openweathermap](https://openweathermap.org/api) and get your api key
+- create .env file and add 
+    ````
+  openweathermap_api = "<your_api_key>"
+  ````
 
-**To make the taskmaster.bat command available globally, you need to add its directory to your system’s PATH.**
+**To make the command available globally, you need to add its directory to your system’s PATH.**
 - Right-click on 'This PC' or 'Computer' on your desktop or in File Explorer.
 - Click 'Properties'.
 - Click 'Advanced system settings'.
@@ -22,4 +27,13 @@
 - You need to restart your command prompt to apply the changes to the PATH environment variable.
 
 **Commands**
+  ````
+  climatecli <country/city>
+  ````
 
+_**without adding to path :**_
+- open the directory in cmd
+- and run
+  ```
+  python climatecli <country/city>
+  ```
