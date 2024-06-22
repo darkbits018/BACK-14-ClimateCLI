@@ -1,0 +1,5 @@
+argparse
+pyfiglet
+requests
+simple_chalk
+python-dotenv
